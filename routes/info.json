@@ -1,0 +1,46 @@
+[
+    {
+        "cities": [
+            "Accra",
+            "Kumasi",
+            "Cape Coast",
+            "Tarkwa",
+            "Wa",
+            "Paga/Navrongo",
+            "Bolga",
+            "Takoradi",
+            "Ho",
+            "Kpandu",
+            "Hohoe",
+            "Aflao",
+            "Tema",
+            "Dormaa",
+            "Berekum",
+            "Sunyani"
+        ]
+    },
+    {
+        "routes":
+        [
+            {
+                "origin": "Accra",
+                "destination": "Kumasi",
+                "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                "dep_time": ["4:30am", "8:30am", "12:30pm", "3:00pm"],
+                "fare": 25
+            }
+        ]
+    },
+    {
+        "routes":
+        [
+            {
+                "origin": "Accra",
+                "destination": "Kumasi",
+                "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                "dep_time": ["4:30am", "8:30am", "12:30pm", "3:00pm"],
+                "fare": 25
+            }
+        ]
+    }
+]

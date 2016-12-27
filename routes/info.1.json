@@ -1,0 +1,322 @@
+[
+    {
+        "origin": "Accra",
+        "destination": "Kumasi",
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "dep_time": ["4:30am", "8:30am", "12:30pm", "3:00pm"],
+        "fare": 25
+    }
+    ,
+    {
+        "origin": "Accra",
+        "destination": "Kumasi",
+        "days": "Sunday",
+        "dep_time": ["6:00am", "9:30am", "12:30pm", "3:30pm"],
+        "fare": 25
+    }
+    ,
+    {
+        "origin": "Accra",
+        "destination": "Tamale",
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "dep_time": ["6:00am", "7:00am", "9:00am", "3:00pm"],
+        "fare": 40
+    }
+    ,
+    {
+        "origin": "Accra",
+        "destination": "Tamale",
+        "days": "Sunday",
+        "dep_time": ["7:00am", "8:00am", "9:00am"],
+        "fare": 40
+    },
+    {
+        "origin": "Accra",
+        "destination": "Cape Coast",
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "dep_time": ["7:00am", "8:00am", "9:00am"],
+        "fare": 9
+    },
+    {
+        "origin": "Accra",
+        "destination":"Cape Coast",
+        "days": "Sunday",
+        "dep_time": ["9:00am", "3:30pm"],
+        "fare": 9
+    },
+    {
+        "origin": "Accra",
+        "destination":"Tarkwa",
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "dep_time": ["1:30pm"],
+        "fare": 20
+    },
+    {
+        "origin": "Accra",
+        "destination":"Wa",
+        "days": ["Monday", "Wednesday", "Saturday"],
+        "dep_time": ["5:00pm"],
+        "fare": 42
+    },
+    {
+        "origin": "Accra",
+        "destination": ["Paga", "Navrongo"],
+        "days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+        "dep_time": ["8:00am"],
+        "fare": 46
+    },
+    {
+        "origin": "Bolga",
+        "destination":"Accra",
+        "days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+        "dep_time": ["8:00am"],
+        "fare": 44
+    },
+    {
+        "origin": "Accra",
+        "destination": ["Dormaa", "Berekum", "Sunyani"] ,
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "dep_time": ["6:00am"],
+        "fare": 29
+    },
+    {
+        "origin": "Accra",
+        "destination": ["Dormaa", "Berekum", "Sunyani"] ,
+        "days": "Sunday",
+        "dep_time": ["6:00am"],
+        "fare": 29
+    },
+    {
+        "origin": "Accra",
+        "destination": "Takoradi",
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "dep_time": ["4:30am","6:00am", "8:30am"],
+        "fare": 14
+    },
+    {
+        "origin": "Accra",
+        "destination": "Takoradi",
+        "days": "Sunday",
+        "dep_time": ["6:00am", "9:30am", "12:30pm"],
+        "fare": 14
+    },
+    {
+        "origin": "Accra",
+        "destination": "Ho",
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "dep_time": ["2:30pm"],
+        "fare": 6
+    },
+    {
+        "origin": "Accra",
+        "destination": "Kpandu",
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "dep_time": ["2:30pm"],
+        "fare": 7
+    },
+    {
+        "origin": "Accra",
+        "destination": "Hohoe",
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "dep_time": ["2:30pm"],
+        "fare": 8
+    },
+    {
+        "origin": "Accra",
+        "destination": "Aflao",
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "dep_time": ["6:00am", "5:30am"],
+        "fare": 12
+    },
+
+
+
+
+
+
+
+    {
+        "origin": "Tarkwa",
+        "destination": "Accra",
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "dep_time": ["5:30pm"],
+        "fare": 15   
+    },
+    {
+        "origin": "Accra",
+        "destination": "Tarkwa",
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "dep_time": ["1:30pm"],
+        "fare": 15   
+    },
+    {
+        "origin": "Takoradi",
+        "destination": "Accra",
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "dep_time": ["4:30pm", "5:30pm", "1:30pm"],
+        "fare": 14   
+    },
+    {
+        "origin": "Takoradi",
+        "destination": "Accra",
+        "days": "Sunday",
+        "dep_time": ["12:30pm"],
+        "fare": 14   
+    },
+    {
+        "origin": ["Dormaa", "Berekum", "Sunyani"],
+        "destination": "Accra" ,
+        "days": "Sunday",
+        "dep_time": ["6:00am"],
+        "fare": 22
+    },
+    {
+        "origin": "Kumasi",
+        "destination": "Takoradi" ,
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "dep_time": ["4:30am", "12:00pm"],
+        "fare": 14
+    },
+    {
+        "origin": "Kumasi",
+        "destination": "Takoradi" ,
+        "days": "Sunday",
+        "dep_time": ["1:00pm"],
+        "fare": 14
+    },
+    {
+        "origin": "Takoradi",
+        "destination": "Kumasi" ,
+        "days": "Sunday",
+        "dep_time": ["1:00pm"],
+        "fare": 14
+    },
+    {
+        "origin": "Takoradi",
+        "destination": "Kumasi" ,
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "dep_time": ["4:30am"],
+        "fare": 14
+    },
+    {
+        "origin": "Takoradi",
+        "destination": "Tamale" ,
+        "days": "Monday",
+        "dep_time": ["7:00am"],
+        "fare": 33
+    },
+    {
+        "origin": "Takoradi",
+        "destination": "Tamale" ,
+        "days": "Friday",
+        "dep_time": ["8:00am"],
+        "fare": 33
+    },
+    {
+        "origin": "Takoradi",
+        "destination": "Bolga" ,
+        "days": "Friday",
+        "dep_time": ["8:00am"],
+        "fare": 36
+    },
+    {
+        "origin": "Kumasi",
+        "destination": "Tamale" ,
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "dep_time": ["7:00am"],
+        "fare": 25 
+    },
+    {
+        "origin": "Kumasi",
+        "destination": "Tamale" ,
+        "days": "Sunday",
+        "dep_time": ["7:00am"],
+        "fare": 25 
+    },
+    {
+        "origin": "Tamale",
+        "destination": "Kumasi" ,
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "dep_time": ["6:30am"],
+        "fare": 25 
+    },
+    {
+        "origin": "Tamale",
+        "destination": "Kumasi" ,
+        "days": "Sunday",
+        "dep_time": ["6:30am"],
+        "fare": 25 
+    },
+    {
+        "origin": "Tamale",
+        "destination": "Accra" ,
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "dep_time": ["6:30am", "7:00am", "4:00pm"],
+        "fare": 40
+    },
+    {
+        "origin": "Tamale",
+        "destination": "Accra" ,
+        "days": "Sunday",
+        "dep_time": ["6:30am", "7:00am", "4:00pm"],
+        "fare": 40
+    },
+    {
+        "origin": "Bolga",
+        "destination": "Takoradi" ,
+        "days": "Saturday",
+        "dep_time": ["9:00am"],
+        "fare": 36
+    },
+    {
+        "origin": "Tamale",
+        "destination": "Takoradi" ,
+        "days": "Tuesday",
+        "dep_time": ["8:00am"],
+        "fare": 33
+    },
+    {
+        "origin": "Tamale",
+        "destination": "Takoradi" ,
+        "days": "Saturday",
+        "dep_time": ["3:00pm"],
+        "fare": 33
+    },
+    {
+        "origin": ["Page", "Navrongo"],
+        "destination": "Takoradi" ,
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "dep_time": ["7:00am"],
+        "fare": 46
+    },
+    {
+        "origin": ["Page", "Navrongo"],
+        "destination": "Takoradi" ,
+        "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "dep_time": ["7:00am"],
+        "fare": 46
+    },
+    {
+        "origin": ["Page", "Navrongo"],
+        "destination": "Kumasi" ,
+        "days": "Tuesday",
+        "dep_time": ["7:30am"],
+        "fare": 32
+    },
+    {
+        "origin": ["Page", "Navrongo"],
+        "destination": "Kumasi" ,
+        "days": "Thursday",
+        "dep_time": ["7:30am"],
+        "fare": 32
+    },
+    {
+        "origin": ["Page", "Navrongo"],
+        "destination": "Kumasi" ,
+        "days": "Saturday",
+        "dep_time": ["7:30am"],
+        "fare": 32
+    }
+]
+
+

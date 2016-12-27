@@ -2,12 +2,15 @@
 var express = require('express');
 var router = express.Router();
 var mongojs = require('mongojs');
-// var db = mongojs('mongodb://issifu.suhununu:openme12@ds139428.mlab.com:39428/mytasklist_issifu', ['tasks']);
-var db = mongojs('mongodb://issifu.suhununu:openme12@ds141128.mlab.com:41128/heroku_sm98ptzk', ['tasks']);
+var db = mongojs('mongodb://issifu.suhununu:openme12@ds141128.mlab.com:41128/heroku_sm98ptzk', ['tasks', 'cities']);
 
-//Get all tasks
-router.get('/tasks', function(req, res, next){
-    db.tasks.find(function(error, tasks){
+//Get all cities
+router.get('/cities', function(req, res, next){
+    db.cities.find(
+        {}, 
+        {"_id": 0, "destination": 1, "origin": 1, "days": 1, "fare": 1},
+    
+    function(error, tasks){
         if(error){
             res.send(error);
         }

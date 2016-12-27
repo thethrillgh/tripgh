@@ -1,13 +1,9 @@
 var express =  require('express');
 var path = require('path');
 var bodyParser = require('body-parser');
-
-
 var index =  require('./routes/index');
 var tasks =  require('./routes/tasks');
-
-var port =  process.env.PORT || 3000;
-
+var port = 2000;
 var app = express();
 
 //View Engine
@@ -24,8 +20,12 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
 //routes
+app.get('/city', function(req, res){
+    res.send('city page');
+});
 app.use('/', index);
 app.use('/api', tasks);
+
 
 app.listen(port, function(){
     console.log("server started on "+port);
