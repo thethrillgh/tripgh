@@ -13,7 +13,12 @@ var platform_browser_1 = require("@angular/platform-browser");
 var http_1 = require("@angular/http");
 var forms_1 = require("@angular/forms");
 var app_component_1 = require("./app.component");
-var tasks_component_1 = require("./components/tasks/tasks.component");
+var nav_component_1 = require("./components/nav/nav.component");
+var contact_component_1 = require("./components/contact/contact.component");
+var signup_component_1 = require("./components/signup/signup.component");
+var about_component_1 = require("./components/about/about.component");
+var homepage_component_1 = require("./components/homepage/homepage.component");
+var ticket_component_1 = require("./components/ticket/ticket.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -22,7 +27,15 @@ var AppModule = (function () {
 AppModule = __decorate([
     core_1.NgModule({
         imports: [platform_browser_1.BrowserModule, http_1.HttpModule, forms_1.FormsModule],
-        declarations: [app_component_1.AppComponent, tasks_component_1.TasksComponent],
+        declarations: [
+            app_component_1.AppComponent,
+            nav_component_1.NavComponent,
+            contact_component_1.ContactComponent,
+            signup_component_1.SignupComponent,
+            about_component_1.AboutComponent,
+            homepage_component_1.HomepageComponent,
+            ticket_component_1.TicketComponent
+        ],
         bootstrap: [app_component_1.AppComponent]
     }),
     __metadata("design:paramtypes", [])

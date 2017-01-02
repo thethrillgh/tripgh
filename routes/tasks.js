@@ -4,11 +4,11 @@ var router = express.Router();
 var mongojs = require('mongojs');
 var db = mongojs('mongodb://issifu.suhununu:openme12@ds141128.mlab.com:41128/heroku_sm98ptzk', ['tasks', 'cities']);
 
-//Get all cities
-router.get('/cities', function(req, res, next){
+//Get all tickets
+router.get('/tickets', function(req, res, next){
     db.cities.find(
         {}, 
-        {"_id": 0, "destination": 1, "origin": 1, "days": 1, "fare": 1},
+        {"_id": 0, "destination": 1, "origin": 1, "days": 1, "fare": 1, 'dep_time': 1},
     
     function(error, tasks){
         if(error){
@@ -16,6 +16,26 @@ router.get('/cities', function(req, res, next){
         }
         res.json(tasks);
     });
+});
+
+//Get specific ticket
+router.get('/tickets/:origin/:destination/:day', function(req, res, next){
+    db.cities.find(
+        { 'origin':req.params.origin, 'destination': req.params.destination, 'days': req.params.day},
+    
+    function(error, tasks){
+        if(error){
+            res.send(error);
+        }
+        res.json(tasks);
+    });
+});
+
+router.get('/test/:fname/:lname', function(req, res, next){
+    res.json({
+        'body': req.body,
+        'params': req.params.lname
+    })
 });
 
 

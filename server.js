@@ -19,10 +19,6 @@ app.use(express.static(path.join(__dirname, 'client')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
-//routes
-app.get('/city', function(req, res){
-    res.send('city page');
-});
 app.use('/', index);
 app.use('/api', tasks);
 
