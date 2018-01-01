@@ -1,0 +1,18 @@
+heroku ps:scale web=1
+
+heroku login
+heroku logs
+
+git add .
+
+git commit -m "message"
+
+git push origin master
+
+heroku open
+
+git push -u origin <branch>
+
+
+mongo ds161028.mlab.com:61028/heroku_xswvm03v -u issifu.suhununu -p openme12
+mongoimport -h ds161028.mlab.com:61028 -d heroku_xswvm03v -c cities -u issifu.suhununu -p openme12 --file info.json --JsonArray

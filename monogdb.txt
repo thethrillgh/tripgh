@@ -1,0 +1,12 @@
+installing mongodb
+
+download program and install
+create data folder -- db folder
+create log folder
+command -mongod --directoryperdb --dbpath C:\mongodb\data\db --logpath C:\mongodb\log\mongo.log --logappend --rest --install
+
+to start mongodb
+net start
+
+show dbs
+use "database"
