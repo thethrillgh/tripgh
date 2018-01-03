@@ -113,11 +113,11 @@ a.read-more {
     padding: 13px 30px;
     text-transform: capitalize;
     font-size: 14px;
-    border: 1px solid #FF9F1C;
+    border: 1px solid #42DCA3;
     font-weight: 600;
     letter-spacing: 1px;
     border-radius: 30px;
-    background: #FF9F1C;
+    background: #42DCA3;
 }
 
 a.read-more:hover {
@@ -141,7 +141,7 @@ a.read-more:hover {
     cursor: pointer;
     display: none;
     z-index: 2;
-    background: #FF9F1C;
+    background: #42DCA3;
 }
 
 .scrollup:hover {
@@ -182,7 +182,7 @@ a.read-more:hover {
 }
 
 .spinner i {
-    color: #FF9F1C;
+    color: #42DCA3;
     font-size: 60px;
 }
 
@@ -202,7 +202,7 @@ a.read-more:hover {
 .welcome-image-area {
     position: relative;
     height: 100%;
-    background: url(../images/bg/mainbg.jpg);
+    background: url(../images/bg/gh.jpg);
     background-size: cover;
     z-index: 1;
 }
@@ -237,7 +237,7 @@ a.read-more:hover {
 }
 
 .header-text h1 span {
-    color: #FF9F1C;
+    color: #42DCA3;
 }
 
 .header-text p {
@@ -260,7 +260,7 @@ a.read-more:hover {
 }
 
 .header-search-form-area input[type="submit"] {
-    background: #FF9F1C;
+    background: #42DCA3;
     border: none;
     color: #fff;
     font-weight: 400;
@@ -286,6 +286,7 @@ a.read-more:hover {
 
 .logo img {
     width: 150px;
+    object-fit: fill
 }
 
 .mainmenu .navbar-nav li {
@@ -307,7 +308,7 @@ a.read-more:hover {
 
 .mainmenu .navbar-nav li a:hover {
     background: none;
-    color: #FF9F1C;
+    color: #42DCA3;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
@@ -351,7 +352,7 @@ a.read-more:hover {
 }
 
 .menu-bg .mainmenu .navbar-nav li a:hover {
-    color: #FF9F1C;
+    color: #42DCA3;
 }
 
 .header-text a {
@@ -360,11 +361,11 @@ a.read-more:hover {
     padding: 15px 35px;
     text-transform: capitalize;
     font-size: 18px;
-    border: 1px solid #FF9F1C;
+    border: 1px solid #42DCA3;
     font-weight: 600;
     letter-spacing: 1px;
     border-radius: 30px;
-    background: #FF9F1C;
+    background: #42DCA3;
 }
 
 .header-text a:hover {
@@ -391,6 +392,10 @@ a.read-more:hover {
     padding: 0px 10px;
 }
 
+.single-place > img {
+    height: 350px
+}
+
 .tour-des {
     background: #fff;
     padding: 20px 20px;
@@ -414,7 +419,7 @@ a.read-more:hover {
     font-weight: 600;
     margin-top: 20px;
     font-family: 'Poppins', sans-serif;
-    color: #FF9F1C;
+    color: #42DCA3;
 }
 
 .single-place h4 span {
@@ -454,7 +459,7 @@ a.read-more:hover {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     color: #fff;
     font-size: 24px;
-    background: #FF9F1C;
+    background: #42DCA3;
     border: none;
     border-radius: 0;
     height: 40px;
@@ -555,7 +560,7 @@ a.read-more:hover {
 
 .service-icon i {
     font-size: 40px;
-    color: #FF9F1C;
+    color: #42DCA3;
 }
 
 .single-service p {
@@ -599,7 +604,7 @@ a.read-more:hover {
 .video-area-text i {
     font-size: 30px;
     border: 1px solid #fff;
-    color: #FF9F1C;
+    color: #42DCA3;
     height: 100px;
     width: 100px;
     border-radius: 50%;
@@ -658,6 +663,7 @@ a.read-more:hover {
     -webkit-transition: all ease-in-out 0.4s;
     transition: all ease-in-out 0.4s;
     width: 100%;
+    height: 320px;
 }
 
 .project-item:hover img {
@@ -701,7 +707,7 @@ a.more-portfolio {
 */
 
 .testimonial-area {
-    background: #FF9F1C;
+    background: #42DCA3;
 }
 
 .single-testi-des {
@@ -827,7 +833,7 @@ a.more-portfolio {
 */
 
 .call-to-area {
-    background: url(../images/bg/mainbg.jpg);
+    background: url(../images/bg/gh.jpg);
     background-size: cover;
     padding: 150px 0px;
     position: relative;
@@ -864,11 +870,11 @@ a.more-portfolio {
     padding: 12px 25px;
     text-transform: capitalize;
     font-size: 14px;
-    border: 1px solid #FF9F1C;
+    border: 1px solid #42DCA3;
     font-weight: 600;
     letter-spacing: 1px;
     border-radius: 30px;
-    background: #FF9F1C;
+    background: #42DCA3;
 }
 
 .call-to-area-text a:hover {
@@ -901,10 +907,10 @@ a.more-portfolio {
 
 .contact-icon i {
     font-size: 20px;
-    color: #FF9F1C;
+    color: #42DCA3;
     height: 50px;
     width: 50px;
-    border: 1px solid #FF9F1C;
+    border: 1px solid #42DCA3;
     border-radius: 50%;
     line-height: 50px;
     text-align: center;
@@ -914,11 +920,11 @@ a.more-portfolio {
 
 .single-contact:hover .contact-icon i {
     color: #fff;
-    border: 1px solid #FF9F1C;
+    border: 1px solid #42DCA3;
     -webkit-transition: .3s;
     transition: .3s;
     font-size: 25px;
-    background: #FF9F1C;
+    background: #42DCA3;
 }
 
 .single-contact {}
@@ -958,7 +964,7 @@ a.more-portfolio {
 }
 
 .form-control:focus {
-    border-color: #FF9F1C;
+    border-color: #42DCA3;
     outline: 0;
     box-shadow: none;
 }
@@ -969,8 +975,8 @@ a.more-portfolio {
     padding: 12px 25px;
     text-transform: capitalize;
     font-size: 14px;
-    border: 1px solid #FF9F1C;
-    background-color: #FF9F1C;
+    border: 1px solid #42DCA3;
+    background-color: #42DCA3;
     border-radius: 0px;
     font-weight: 600;
     border-radius: 30px;
@@ -979,7 +985,7 @@ a.more-portfolio {
 .contact-form input[type='submit']:hover {
     background: transparent;
     color: #000;
-    border: 1px solid #FF9F1C;
+    border: 1px solid #42DCA3;
     -webkit-transition: .3s;
     transition: .3s;
 }
