@@ -1,3 +1,4 @@
+/* You can add global styles to this file, and also import other style files */
 /*
 * ----------------------------------------------------------------------------------------
 Author       : onepageboss
@@ -202,7 +203,7 @@ a.read-more:hover {
 .welcome-image-area {
     position: relative;
     height: 100%;
-    background: url(../images/bg/gh.jpg);
+    background: url(./assets/images/bg/gh.jpg);
     background-size: cover;
     z-index: 1;
 }
@@ -333,7 +334,6 @@ a.read-more:hover {
 }
 
 .menu-bg .logo {
-    padding-top: 16px;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
@@ -372,6 +372,15 @@ a.read-more:hover {
     -webkit-transition: .3s;
     transition: .3s;
     background: transparent;
+}
+
+.header-container {
+    display: flex;
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
 }
 
 
@@ -576,7 +585,7 @@ a.read-more:hover {
 
 .video-area {
     padding: 200px 0px;
-    background: url(../images/bg/youtube.jpg);
+    background: url(./assets/images/bg/youtube.jpg);
     position: relative;
     background-size: cover;
     z-index: 1;
@@ -832,7 +841,7 @@ a.more-portfolio {
 */
 
 .call-to-area {
-    background: url(../images/bg/gh.jpg);
+    background: url(./assets/images/bg/gh.jpg);
     background-size: cover;
     padding: 150px 0px;
     position: relative;
@@ -1023,4 +1032,8 @@ a.more-portfolio {
     color: #fff;
     font-weight: 300;
     font-size: 16px;
+}
+
+.menu-bg .logo {
+    padding-top: 0px !important;
 }
