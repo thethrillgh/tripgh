@@ -268,7 +268,7 @@ a.read-more:hover {
     width: 10%;
 }
 
-.header-top-area {
+.header-top-area, .header-top-area-package {
     position: fixed;
     left: 0;
     top: 0;
@@ -333,7 +333,6 @@ a.read-more:hover {
 }
 
 .menu-bg .logo {
-    padding-top: 16px;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
@@ -391,7 +390,7 @@ a.read-more:hover {
     padding: 0px 10px;
 }
 
-.single-place > img {
+.single-place img {
     height: 350px
 }
 

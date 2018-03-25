@@ -1,0 +1,70 @@
+header {
+    margin-bottom: 80px;
+}
+
+.package-content {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    object-fit: contain;
+}
+
+.package-header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img-summary {
+    background-image: url(../assets/images/packages/accra_tour.jpeg);
+    background-size: 100% auto;
+    height: 270px;
+    margin-bottom: 15px;
+}
+
+.sub-title {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #42DCA3;
+}
+
+.highlights-div {
+    margin-top: 10px;
+}
+
+.highlights-list {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.highlights-list > li {
+    margin-bottom: 10px;
+}
+
+.show-details {
+    padding: 15px 35px;
+    text-transform: capitalize;
+    font-size: 18px;
+    border: 1px solid #42DCA3;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    background: #42DCA3;
+    width: 300px;
+    margin: 10px 0;
+    color: white;
+}
+
+.show-details:hover {
+    color: black;
+    transition: .3s;
+    background: transparent;
+}
+
+.highlights-header {
+    display: flex;
+}
